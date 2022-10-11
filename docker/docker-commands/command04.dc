@@ -1,2 +1,1 @@
-docker attach 01container
-cat /etc/os-release
+docker exec -ti 01container sh -c "cat /etc/os-release"
